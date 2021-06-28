@@ -17,7 +17,7 @@ public class Main {
 			nums = inputs.reverseOrderedInput(size);
 			int pos = nums.length/2; 
 	
-	/*	MergeSort merge = new MergeSort();
+		MergeSort merge = new MergeSort();
 		System.out.println("Merge Sort => For input size = " + size + " and with input order type: " + type);
 		merge.findExecutionTime(nums); */
 		
@@ -25,7 +25,7 @@ public class Main {
 		System.out.println("Insertion Sort => For input size = " + size + " and with input order type: " + type);
 		insert.findExecutionTime(nums); 
 		
-	/*	BinaryInsertionSort binarySearch = new BinaryInsertionSort();
+		BinaryInsertionSort binarySearch = new BinaryInsertionSort();
 		System.out.println("Binary Insertion Sort => For input size = " + size + " and with input order type: " + type);
 		binarySearch.findExecutionTime(nums); 
 	
@@ -43,7 +43,7 @@ public class Main {
 		 
 		QuickSortMedianOfThree quickMedian = new QuickSortMedianOfThree();
 		System.out.println("Quick Sort Median Of Three => For input size = " + size + " and with input order type: " + type);
-		quickMedian.findExecutionTime(nums); */
+		quickMedian.findExecutionTime(nums);
 	
 	}
 
